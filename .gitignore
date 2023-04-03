@@ -26,3 +26,5 @@ hs_err_pid*
 target/
 
 # End of https://mrkandreev.name/snippets/gitignore-generator/#Java,Java-Web
+/dist/
+/build/
