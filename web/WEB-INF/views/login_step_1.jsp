@@ -22,7 +22,7 @@
                     <div class="header col-md-12 col-12 text-center">
                         Sign in with Student ID
                     </div>
-                    <form action="" class="col-md-12">
+                    <form action="/login" class="col-md-12">
                         <div class="form-group">
                             <label class="mb-2" for="studentID">Student ID</label>
                             <input type="text" name="studentID" id="studentID" class="form-control">
@@ -40,27 +40,25 @@
                     <button class="btn-primary btn btn-block col-md-12 col-12"type="button">Continue <i class="fa-solid fa-arrow-right-long"></i>
                     </button>
                 </div>
-<<<<<<< HEAD
-                <form action="/login" class="col-md-12">
-                    <div class="form-group">
-                        <label class="mb-2" for="studentID">Student ID</label>
-                        <input type="text" name="studentID" id="studentID" class="form-control">
                     </div>
-                </form>
-                <div class="row mb-3 components">
-                    <div class="col-md-6 text-center">
-                        <input class="form-check-input" type="checkbox" name="" id="rememberMe">
-                        <label class="form-check-label" for="rememberMe">Remember me</label>
+                    <form action="" class="col-md-12">
+                        <div class="form-group">
+                            <label class="mb-2" for="studentID">Student ID</label>
+                            <input type="text" name="studentID" id="studentID" class="form-control">
+                        </div>
+                    </form>
+                    <div class="row mb-3 components">
+                        <div class="col-md-6 text-center">
+                            <input class="form-check-input" type="checkbox" name="rememberMe" id="rememberMe">
+                            <label class="form-check-label" for="rememberMe">Remember me</label>
+                        </div>
+                        <div class="col-md-6 text-center">
+                            <a href="#">Forgot password?</a>
+                        </div>
                     </div>
-                    <div class="col-md-6 text-center">
-                        <a href="#">Forgot password?</a>
-                    </div>
+                    <button class="btn-primary btn btn-block col-md-12 col-12" type="submit">Continue <i class="fa-solid fa-arrow-right-long"></i>
+                    </button>
                 </div>
-                <button class="btn-primary btn btn-block col-md-12 col-12" type="submit">Continue <i
-                        class="fa-solid fa-arrow-right-long"></i></button>
-
-=======
->>>>>>> 37797a6dfc7d04ab141cf7cb38d99f174a07fae0
             </div>
         </div>
     </body>
