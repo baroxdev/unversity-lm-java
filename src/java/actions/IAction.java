@@ -15,5 +15,6 @@ import javax.servlet.http.HttpServletResponse;
  */
 public interface IAction {
     void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException;
-    void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException;
+    void doPost(HttpServletRequest request, 
+            HttpServletResponse response) throws ServletException, IOException;
 }
