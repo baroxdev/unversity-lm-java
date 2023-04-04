@@ -30,7 +30,7 @@
                 <div class="header col-md-12 col-12 text-center">
                     Sign in with Student ID
                 </div>
-                <form action="" class="col-md-12">
+                <form action="/login" class="col-md-12">
                     <div class="form-group">
                         <label class="mb-2" for="studentID">Student ID</label>
                         <input type="text" name="studentID" id="studentID" class="form-control">
@@ -45,7 +45,7 @@
                         <a href="#">Forgot password?</a>
                     </div>
                 </div>
-                <button class="btn-primary btn btn-block col-md-12 col-12" type="button">Continue <i
+                <button class="btn-primary btn btn-block col-md-12 col-12" type="submit">Continue <i
                         class="fa-solid fa-arrow-right-long"></i></button>
 
             </div>
