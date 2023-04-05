@@ -45,7 +45,7 @@ public class SubjectDao {
     }
     //lấy list môn theo curriculumId
     public static List<Subject> readSubjectList(String curId) throws Exception {
-        String query = "select distinct [id], [name], [createdAt], [updatedAt], [preRequisite], [semester], [credit] from Subject join Subject_to_Cur on id = sub_ID where cur_ID = '?'";
+        String query = "select distinct [id], [name], [createdAt], [updatedAt], [preRequisite], [semester], [credit], [knowlegdeCategoryID] from Subject join Subject_to_Cur on id = sub_ID where cur_ID = '?'";
         List<Subject> list = null;
         Connection con = DBUtils.makeConnection();
         try {

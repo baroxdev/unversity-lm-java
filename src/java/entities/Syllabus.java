@@ -21,14 +21,15 @@ public class Syllabus {
     private int scoringScale;
     private boolean status;
     private int minScore;
-    private Date createdAt;
+    private String createdAt;
+    private String updatedAt;
     private boolean isApproved;
     private String subjectID;
 
     public Syllabus() {
     }
 
-    public Syllabus(int id, String name, int credit, String description, String tasks, int scoringScale, boolean status, int minScore, Date createdAt, boolean isApproved, String subjectID) {
+    public Syllabus(int id, String name, int credit, String description, String tasks, int scoringScale, boolean status, int minScore, String createdAt, String updatedAt, boolean isApproved, String subjectID) {
         this.id = id;
         this.name = name;
         this.credit = credit;
@@ -38,6 +39,7 @@ public class Syllabus {
         this.status = status;
         this.minScore = minScore;
         this.createdAt = createdAt;
+        this.updatedAt = updatedAt;
         this.isApproved = isApproved;
         this.subjectID = subjectID;
     }
@@ -106,12 +108,20 @@ public class Syllabus {
         this.minScore = minScore;
     }
 
-    public Date getCreatedAt() {
+    public String getCreatedAt() {
         return createdAt;
     }
 
-    public void setCreatedAt(Date createdAt) {
+    public void setCreatedAt(String createdAt) {
         this.createdAt = createdAt;
+    }
+
+    public String getUpdatedAt() {
+        return updatedAt;
+    }
+
+    public void setUpdatedAt(String updatedAt) {
+        this.updatedAt = updatedAt;
     }
 
     public boolean isIsApproved() {
