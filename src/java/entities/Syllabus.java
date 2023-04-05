@@ -13,7 +13,7 @@ import java.util.Date;
  */
 public class Syllabus {
 
-    private int ID;
+    private int id;
     private String name;
     private int credit;
     private String description;
@@ -28,8 +28,8 @@ public class Syllabus {
     public Syllabus() {
     }
 
-    public Syllabus(int ID, String name, int credit, String description, String tasks, int scoringScale, boolean status, int minScore, Date createdAt, boolean isApproved, String subjectID) {
-        this.ID = ID;
+    public Syllabus(int id, String name, int credit, String description, String tasks, int scoringScale, boolean status, int minScore, Date createdAt, boolean isApproved, String subjectID) {
+        this.id = id;
         this.name = name;
         this.credit = credit;
         this.description = description;
@@ -42,12 +42,12 @@ public class Syllabus {
         this.subjectID = subjectID;
     }
 
-    public int getID() {
-        return ID;
+    public int getId() {
+        return id;
     }
 
-    public void setID(int ID) {
-        this.ID = ID;
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getName() {

@@ -11,23 +11,23 @@ package entities;
  */
 public class Role {
 
-    private String ID;
+    private String id;
     private String roleName;
 
     public Role() {
     }
 
-    public Role(String ID, String roleName) {
-        this.ID = ID;
+    public Role(String id, String roleName) {
+        this.id = id;
         this.roleName = roleName;
     }
 
-    public String getID() {
-        return ID;
+    public String getId() {
+        return id;
     }
 
-    public void setID(String ID) {
-        this.ID = ID;
+    public void setId(String id) {
+        this.id = id;
     }
 
     public String getRoleName() {

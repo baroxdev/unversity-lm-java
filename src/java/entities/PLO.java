@@ -9,27 +9,21 @@ package entities;
  *
  * @author giahu
  */
-public class Curriculum {
+public class PLO {
 
     private int id;
-    private String code;
     private String name;
     private String description;
-    private String decisionNo;
-    private String viName;
     private String createdAt;
     private String updatedAt;
 
-    public Curriculum() {
+    public PLO() {
     }
 
-    public Curriculum(int id, String code, String name, String description, String decisionNo, String viName, String createdAt, String updatedAt) {
+    public PLO(int id, String name, String description, String createdAt, String updatedAt) {
         this.id = id;
-        this.code = code;
         this.name = name;
         this.description = description;
-        this.decisionNo = decisionNo;
-        this.viName = viName;
         this.createdAt = createdAt;
         this.updatedAt = updatedAt;
     }
@@ -40,14 +34,6 @@ public class Curriculum {
 
     public void setId(int id) {
         this.id = id;
-    }
-
-    public String getCode() {
-        return code;
-    }
-
-    public void setCode(String code) {
-        this.code = code;
     }
 
     public String getName() {
@@ -64,22 +50,6 @@ public class Curriculum {
 
     public void setDescription(String description) {
         this.description = description;
-    }
-
-    public String getDecisionNo() {
-        return decisionNo;
-    }
-
-    public void setDecisionNo(String decisionNo) {
-        this.decisionNo = decisionNo;
-    }
-
-    public String getViName() {
-        return viName;
-    }
-
-    public void setViName(String viName) {
-        this.viName = viName;
     }
 
     public String getCreatedAt() {
