@@ -64,3 +64,43 @@ label, a {
     }
 
 }
+
+.list_header_background {
+    background-color: rgba(5, 44, 101, 1);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    position: absolute;
+    width: 252px;
+    height: 1080px;
+    left: 0px;
+    top: 0px;
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.list_header {
+    width: 219px;
+    height: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.container {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: absolute;
+    width: 1104px;
+    height: 451px;
+    left: 293px;
+    top: 94px;
+}
