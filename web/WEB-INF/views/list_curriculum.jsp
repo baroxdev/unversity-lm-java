@@ -15,10 +15,13 @@
         <title>List Curriculum</title>
     </head>
     <body>
-        <div class="list_header_background col-lg-3">
-            <h2 class="list_header col-3">ULM Dashboard</h2>
+        <div class="col-md-2" style="background-color: rgba(5, 44, 101, 1); width: 212px;
+             height: 1080px;">
+            <h2 style="color: #FFFFFF; font-family: 'Inter'; font-size: 20px;">
+                ULM Dashboard
+            </h2>
         </div>
-        <div class="container">
+        <div class="container col-md-10">
             <table class="table table-hover">
                 <thead>
                     <tr>
@@ -33,7 +36,7 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <c:forEach var="curriculum" items="${list_curriculum}" varStatus="loop">
+                    <c:forEach var="curriculum" items="${list_curriculum}">
                         <tr>
                             <th class="row">
                                 <input type="checkbox" /> 
